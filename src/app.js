@@ -4,7 +4,7 @@ const config = require('../config/config');
 const app = express();
 const routes = require('./aplication/routes/index');
 const cors = require('cors');
-// Middleware.
+// Middleware
 app.use(express.json());
 
 app.use(cors(
