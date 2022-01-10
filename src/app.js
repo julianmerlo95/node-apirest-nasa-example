@@ -1,7 +1,7 @@
 const express = require('express');
 const config = require('../config/config');
 
-const app = express();
+const app = express();;
 const routes = require('./aplication/routes/index');
 const cors = require('cors');
 // Middleware.
